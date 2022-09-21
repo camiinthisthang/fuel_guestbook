@@ -29,7 +29,7 @@ impl Guestbook for Contract {
     #[storage(read, write)]
     fn sign_guestbook(message:str[20]){
         let sender = msg_sender().unwrap();
-        storage.signers.push((sender, message));
+        //storage.signers.push((sender, message));
     }
 
     #[storage(read)]

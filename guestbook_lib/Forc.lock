@@ -5,16 +5,8 @@ dependencies = []
 
 [[package]]
 name = 'guestbook_lib'
-source = 'path+from-root-633A0C8A70C58991'
-dependencies = ['std']
-
-[[package]]
-name = 'guestbook_script'
 source = 'root'
-dependencies = [
-    'guestbook_lib',
-    'std',
-]
+dependencies = ['std']
 
 [[package]]
 name = 'std'
