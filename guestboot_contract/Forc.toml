@@ -1,0 +1,8 @@
+[project]
+authors = ["Camila Ramos"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "guestboot_contract"
+
+[dependencies]
+guestbook_lib = { path = "../guestbook_lib" }
